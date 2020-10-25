@@ -11,4 +11,5 @@ Creating an object ofter requires complex processes. The object's creation may l
 ## Implementation
 
 1. Make all product classes implement the same interface. This interface should declare methods that make sense in every product.
-2. Create abstract class that have an empty factory method. 
+2. Create an abstract class that have an abstract factory method. The return type of the method should be the product interface.
+3. Create set of creator subclasses and for each override the factory method.
