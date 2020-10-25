@@ -1,4 +1,4 @@
-package com.zyapkov.app.singleton;
+package com.zyapkov.patterns.creational.singleton;
 
 public class SingletonClass {
 
